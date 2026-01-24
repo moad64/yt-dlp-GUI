@@ -1,28 +1,35 @@
-# yt-dlp-GUI
+# yt-dlp GUI
 
-A simple Python GUI to search and download YouTube videos using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
+A modern, lightweight GUI application for downloading YouTube videos using `yt-dlp`, built with CustomTkinter.
 
-## Features
-- Video and playlist search functionality.
-- Download videos and playlists with yt-dlp.
-- User-friendly graphical interface built with `customtkinter`.
+## Features ✨
 
-## Requirements
-- Python 3.7+
-- ffmpeg (required for downloading functionality) 
-- Installed dependencies from `requirements.txt` (to be added).
+- **Fast Downloads**: Uses aria2c for accelerated parallel downloading (when available)
+- **Smart Caching**: Caches video info and thumbnails for faster browsing
+- **Multiple Format Support**: Choose from various video qualities, codecs, and frame rates
+- **Search & Browse**: Search YouTube directly or paste URLs
+- **Watch Instantly**: Stream videos directly in VLC player
+- **Customizable UI**: Choose your preferred color theme
+- **Cross-Platform**: Works on Linux, Windows, and macOS
+- **Thumbnail Previews**: See video thumbnails in search results
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/moad64/yt-dlp-GUI.git
-   cd yt-dlp-GUI
-   ```
-2. Install the required dependencies (future addition).
-3. Run the application:
-   ```bash
-   python main.py
-   ```
+## Installation 📦
 
-## License
-This project currently does not have a license, and usage rights remain reserved by the author.
+### Prerequisites
+- Python 3.7 or higher
+- ffmpeg (for video/audio merging)
+- VLC (for instant playback, optional)
+- aria2c (for faster downloads, optional but recommended)
+
+### 1. Install from source
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/yt-dlp-gui.git
+cd yt-dlp-gui
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python main.py
