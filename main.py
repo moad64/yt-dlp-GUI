@@ -442,7 +442,7 @@ class app(tk.CTk):
 			'cookies_from_browser': 'brave',
 			'extractor_args': {
 				'youtube': {
-					'player_client': ['tv'],  # Try different clients
+					'player_client': ['android_vr'],  # Try different clients
 					'player_skip': ['configs'],  # Skip some configs
 					}
 				}
